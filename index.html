@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicas Javascript</title>
+
+    <style>
+        :root{
+            --dark-color: black;
+            --yellow-color: yellow;
+        }
+
+        .cube{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+        .rotate-45{
+            transform: rotate(45deg);
+        }
+
+        .rotate-135{
+            transform: rotate(135deg);
+        }
+        
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+            border: thin solid black;
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        figcaption{
+            background-color: black;
+            color: white;
+        }
+
+        .eventos-flujo div{
+            padding: 4rem;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .uno{
+            background-color: red;
+        }
+
+        .dos{
+            background-color: rosybrown;
+        }
+
+        .tres{
+            background-color: blueviolet;
+        }
+
+         
+
+    </style>
+</head>
+<body>
+    <h1>Practicas Javascript</h1>
+    <div class="cube">Cube</div>
+
+    <div class="cube cube2">Cube2</div>
+
+    <form action="">
+        <ul>Lista de LI
+            <li class="clase">1</li>
+            <li>2</li>
+            <li >3</li>
+            <li id="unico" >4</li>
+            <li><input type="text" name="nombre" placeholder="Nombre" data-description="DataNombre" data-set="DataConjunto"></li>
+            <li><a href="#">LINK1</a></li>
+        </ul>
+    </form>
+    <form action="">
+        <ul>Lista de LI
+            <li class="clase">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li id="unico">4</li>
+            <li><input type="text" name="nombre" placeholder="Nombre" ></li>
+            <li><a href="#">LINK2</a></li>
+        </ul>
+    </form>
+
+    <article>
+        <section>
+            <p id="que-es">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis </p>
+        </section>
+    </article>
+
+
+
+    <section class="cards"> 
+       <figure class="card">
+        <img src="https://th.bing.com/th/id/R.fab43baf891ac9f7d604a9381917f317?rik=MWAUJ7R2grJcVQ&riu=http%3a%2f%2fpavbca.com%2fwalldb%2foriginal%2f9%2f3%2f6%2f99927.jpg&ehk=3S09ShJTEDi4cTQTgZKRkoLWkdXjTrp2Wi%2b4ZgTBI1c%3d&risl=&pid=ImgRaw&r=0" alt="">
+        <figcaption>Zed De Campeonato</figcaption>
+       </figure>
+       <figure class="card">
+        <img src="https://th.bing.com/th/id/R.fab43baf891ac9f7d604a9381917f317?rik=MWAUJ7R2grJcVQ&riu=http%3a%2f%2fpavbca.com%2fwalldb%2foriginal%2f9%2f3%2f6%2f99927.jpg&ehk=3S09ShJTEDi4cTQTgZKRkoLWkdXjTrp2Wi%2b4ZgTBI1c%3d&risl=&pid=ImgRaw&r=0" alt="">
+        <figcaption>Zed De Campeonato</figcaption>
+       </figure>
+       <figure class="card">
+        <img src="https://th.bing.com/th/id/R.fab43baf891ac9f7d604a9381917f317?rik=MWAUJ7R2grJcVQ&riu=http%3a%2f%2fpavbca.com%2fwalldb%2foriginal%2f9%2f3%2f6%2f99927.jpg&ehk=3S09ShJTEDi4cTQTgZKRkoLWkdXjTrp2Wi%2b4ZgTBI1c%3d&risl=&pid=ImgRaw&r=0" alt="">
+        <figcaption>Zed De Campeonato</figcaption>
+       </figure>
+       <figure class="card">
+        <img src="https://th.bing.com/th/id/R.fab43baf891ac9f7d604a9381917f317?rik=MWAUJ7R2grJcVQ&riu=http%3a%2f%2fpavbca.com%2fwalldb%2foriginal%2f9%2f3%2f6%2f99927.jpg&ehk=3S09ShJTEDi4cTQTgZKRkoLWkdXjTrp2Wi%2b4ZgTBI1c%3d&risl=&pid=ImgRaw&r=0" alt="">
+        <figcaption>Zed De Campeonato</figcaption>
+       </figure>
+    </section>
+
+    <template id="template-card">
+        <figure class="card">
+            <img>
+            <figcaption></figcaption>
+        </figure>
+    </template>
+
+
+    <h3>Manejadores de Eventos</h3>
+
+    <button id="boton-evento">Evento</button>
+    <button id="boton-evento__remover">Remover Evento</button>
+
+
+    <h4>Flujo de Eventos</h4>
+
+    <section class="eventos-flujo">
+        <div class="uno">
+            1
+            <div class="dos">
+                2
+                <div class="tres">
+                    3 <a href="marcos.com" target="_blank" >marcos.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h4>MANEJO DEL BOM</h4>
+
+    <script src="./dom.js"></script>
+</body>
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" data-dark>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="index_dom.css">
+    <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Exercises DOM</h1>
+    </header>
+   <div class="main-aside">
+    <main>          
+            <section class="section" id="section1">
+                <h2 data-dark>Digital Clock and Alarm</h2>
+                <div id="clock"></div>
+                <div>
+                    <button id="start-clock">Start Clock</button>
+                    <button id="stop-clock">Stop Clock</button>
+                    <button id="start-alarm">Start Alarm</button>
+                    <button id="stop-alarm">Stop Alarm</button>
+                </div>
+            </section>
+    
+            <section class="section" id="section2">
+                <h2 data-dark>Keyboard Events</h2>
+                <div id="background">
+                    <div id="circle"></div>
+                </div>
+            </section>
+    
+            <section class="section" id="section3">
+                <h2 data-dark>Countdown</h2>
+                <div id="timer"></div>
+    
+            </section>
+    
+            <section class="section" id="section4">
+                <h2 data-dark>Responsive JS</h2>
+                <div id="youtube-content"></div> 
+                <div id="maps-content"></div> 
+            </section>
+    
+            <section class="section" id="section5">
+                <h2 data-dark>Responsive Tester</h2>
+    
+                <form action="" id="responsive-form">
+                    <input type="url" placeholder="URL" name="url" required>
+                    <input type="number" placeholder="Width" name="width" required>
+                    <input type="number" placeholder="Height" name="height" required>
+                    <input type="submit" value="Open" >
+                    <input type="button" value="Close" name="close">
+                </form>
+            </section>
+    
+            <section class="section" id="section6">
+                <h2 data-dark>Device Detection</h2>
+                <div id="user-agent"></div>
+            </section>
+    
+            <section class="section" id="section7">
+                <h2 data-dark>Connection Detection</h2>
+            </section>
+    
+            <section class="section" id="section8">
+                <h2 data-dark>Camera Detection</h2>
+                <video id="video" autoplay></video>
+            </section>
+    
+            <section class="section" id="section9">
+                <h2 data-dark>Geolocation</h2>
+                <div id="geolocation"></div>
+            </section>
+    
+            <section class="section" id="section10">
+                <h2 data-dark>Search Filter</h2>
+                <article>
+                    <input type="text" name="filter" id="filter" placeholder="Buscar...">
+                    <ul id="cards">
+                        <li class="card">
+                            <img src="https://th.bing.com/th/id/OIP.8wOgHqG2L8TMdi6i7840owHaHa?pid=ImgDet&rs=1" alt="Zed">
+                            <figcaption>Zed</figcaption>
+                        </li>
+                        <li class="card">
+                            <img src="https://th.bing.com/th/id/OIP.dOwdnZOt7PO7Y_TM7VITZAHaEK?pid=ImgDet&rs=1" alt="Annie">
+                            <figcaption>Annie</figcaption>
+                        </li>
+                        <li class="card">
+                            <img src="https://th.bing.com/th/id/R.12c8089778e0b7d8bb876ccca0f85e24?rik=VpgYeLUlSy9d6g&riu=http%3a%2f%2f1.bp.blogspot.com%2f-FI-NhUN3T6A%2fUFpAyDvehYI%2fAAAAAAAAAfg%2fGw85ydvgWYQ%2fs1600%2fkhazix_splash.jpg&ehk=H62qHx1VJ56lmYkfwW%2bRWkVsTlV3inWkMjc9hVR2PgY%3d&risl=&pid=ImgRaw&r=0" alt="Khazix">
+                            <figcaption>Khazix</figcaption>
+                        </li>
+                        <li class="card">
+                            <img src="https://media.esportsedition.com/wp-content/uploads/2016/06/Illaoi.jpg" alt="Illaio">
+                            <figcaption>Illaoi</figcaption>
+                        </li>
+                        <li class="card">
+                            <img src="https://th.bing.com/th/id/R.3e5cadb976872e0c87cad5069de30e27?rik=pxdETI6Gm%2biaGw&riu=http%3a%2f%2fna.leagueoflegends.com%2fsites%2fdefault%2ffiles%2fupload%2fshen-redirect-banner_0.jpg&ehk=gY%2bZ4jzLqYK5NWrwWrGwDVMnTrZh8MNrUP73k8KTAo4%3d&risl=&pid=ImgRaw&r=0" alt="Shen">
+                            <figcaption>Shen</figcaption>
+                        </li>
+                        <li class="card">
+                            <img src="https://th.bing.com/th/id/R.4bd8ec4cc2d2cc24fc2f4f4eb68744e9?rik=2U6rQaQqcbl4yg&riu=http%3a%2f%2fddragon.leagueoflegends.com%2fcdn%2fimg%2fchampion%2fsplash%2fGnar_0.jpg&ehk=K2SS9CXtNNJlncCHzNIEG9cCtPfiAuA9xAqqCS00lIg%3d&risl=&pid=ImgRaw&r=0" alt="Gnar">
+                            <figcaption>Gnar</figcaption>
+                        </li>             
+                    </ul>
+                </article>
+            </section>
+    
+            <section class="section" id="section11">
+                <h2 data-dark>Prize Draw</h2>
+                <ul id="prize-list">
+                    <li>JavaScript</li>
+                    <li>Sass</li>
+                    <li>PHP</li>
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>Golang</li>
+                    <li>SQL</li>
+                    <li>C++</li>
+                    <li>C#</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                </ul>
+                <button id="prize-list-btn" >Sortear</button>
+            </section>
+    
+            <section class="section" id="section12">
+                <h2 data-dark>Responsive Slider</h2>
+                <div class="slider-slides">
+                    <div class="slides">
+                        <div class="slide">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt amet non officia veritatis magni qui explicabo, cupiditate tempore doloribus doloremque alias dicta tenetur laboriosam asperiores eveniet dignissimos, reiciendis, provident pariatur.</p>
+                        </div>
+                        <div class="slide">
+                            <img src="https://gameriv.com/wp-content/uploads/2021/06/project-zed.jpg" alt="">
+                        </div>
+                        <div class="slide active"> 
+                            <img src="https://th.bing.com/th/id/R.3e5cadb976872e0c87cad5069de30e27?rik=pxdETI6Gm%2biaGw&riu=http%3a%2f%2fna.leagueoflegends.com%2fsites%2fdefault%2ffiles%2fupload%2fshen-redirect-banner_0.jpg&ehk=gY%2bZ4jzLqYK5NWrwWrGwDVMnTrZh8MNrUP73k8KTAo4%3d&risl=&pid=ImgRaw&r=0" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="https://th.bing.com/th/id/R.d6bd03483d905964bba3d8944104cd7b?rik=ywbUCf2mCYvD0w&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f0%2f0%2f0%2f1028366-widescreen-shen-wallpaper-1920x1200-for-iphone-6.jpg&ehk=EZ2Bvn8aSOR7SykL19fGmT05toD9gDrTXEeVzalY%2bqk%3d&risl=&pid=ImgRaw&r=0" alt="">
+                        </div>
+                        <div class="slide">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt amet non officia veritatis magni qui explicabo, cupiditate tempore doloribus doloremque alias dicta tenetur laboriosam asperiores eveniet dignissimos, reiciendis, provident pariatur.TU MAMAAAAA</p>
+                        </div>
+                        <div class="slide">
+                            <img src="https://th.bing.com/th/id/R.6ad2dfcdfa10241bbb4ff52e6aad5940?rik=lNw7MlkjUwDzDA&riu=http%3a%2f%2fmedia.comicbook.com%2f2017%2f05%2fyasuo-1-997817.jpg&ehk=9UYdmgXCqTzNiJ5YbDzam%2b8k4XCmYJbEXJdXpu%2fCXjI%3d&risl=&pid=ImgRaw&r=0" alt="">   
+                        </div>   
+                    </div>
+                    <div class="slider-slides-btn">
+                        <a href="#" class="slides-btn previous"><</a>
+                        <a href="#" class="slides-btn next">></a>
+                       
+                    </div>
+                </div> 
+            </section>
+
+            <section class="section" id="section13">
+                <h2 data-dark>Intelligent Video</h2>
+                <video src="../videos/video.mp4" id="intelligent-video" controls></video>
+            </section>
+            <section class="section" id="section14">
+                <h2 data-dark>Validation Form</h2>
+                <form action="" id="validation-form">
+                    <input class="validation-form-input" type="text" name="name" required placeholder="Escribe tu nombre">
+                    <br>
+                    <input class="validation-form-input" type="text" name="mail" required placeholder="Escribe tu mail">
+                    <br>
+                    <input class="validation-form-input" type="email" name="asunto" required placeholder="Asunto a tratar">
+                    <br>
+                    <textarea class="validation-form-input" name="comments" id="" cols="30" rows="10" placeholder="Escribe tus comentarios"></textarea>
+                    <br>
+                    <input class="validation-form-input" type="submit" value="Enviar">
+                </form>
+            </section>
+            <section class="section" id="section15">
+                <h2 data-dark>Narrator</h2>
+                <div class="narrator">
+                    <select name="voices" id="voice-select">
+                        <option value="">--Elige una voz---</option>
+                    </select>
+                    <textarea name="" id="voice-text" cols="40" rows="5" placeholder="Ingresa texto para leerlo"></textarea>
+                    <button id="read-btn">Leer Texto</button>
+                </div>
+            </section>
+    </main>
+       <nav class="desktop-menu-space display-none">
+       </nav>   
+
+</div>
+
+<aside>
+    <div class="panel">
+        <nav class="menu">
+            <a href="#section1">Digital Clock and Alarm</a>
+            <a href="#section2">Keyboard Events</a>
+            <a href="#section3">Countdown</a>
+            <a href="#section4">Responsive JS</a>
+            <a href="#section5">Responsive Tester</a>
+            <a href="#section6">Device Detection</a>
+            <a href="#section7">Connection Detection</a>
+            <a href="#section8">Camera Detection</a>
+            <a href="#section9">Geolocation</a>
+            <a href="#section10">Search Filter</a>
+            <a href="#section11">Prize Draw</a>
+            <a href="#section12">Responsive Slider</a>
+            <a href="#section13">Intelligent Video</a>
+            <a href="#section14">Validation Form</a>
+            <a href="#section15">Narrator</a>
+        </nav> 
+    </div>  
+    <div class="desktop-panel">
+        <nav class="desktop-menu">
+
+            <div class="desktop-menu-container">
+                <a href="#section1">Digital Clock and Alarm</a>
+            </div>
+            
+            <div class="desktop-menu-container">
+                <a href="#section2">Keyboard Events</a>
+            </div>
+
+            <div class="desktop-menu-container">
+                <a href="#section3">Countdown</a>
+            </div>
+            
+            <div class="desktop-menu-container">
+                <a href="#section4">Responsive JS</a>
+            </div>
+          
+            <div class="desktop-menu-container">
+                <a href="#section5">Responsive Tester</a>
+            </div>
+            
+            <div class="desktop-menu-container">  
+                 <a href="#section6">Device Detection</a>
+            </div>
+         
+            <div class="desktop-menu-container">
+                <a href="#section7">Connection Detection</a>
+            </div>
+            
+            <div class="desktop-menu-container">
+                <a href="#section8">Camera Detection</a>
+            </div>
+      
+            <div class="desktop-menu-container">
+                <a href="#section9">Geolocation</a>
+            </div>
+         
+            <div class="desktop-menu-container">
+                <a href="#section10">Search Filter</a>
+            </div>
+      
+            <div class="desktop-menu-container">
+                <a href="#section11">Prize Draw</a>
+            </div>
+
+            <div class="desktop-menu-container">
+                <a href="#section12">Responsive Slider</a>
+            </div>   
+            <div class="desktop-menu-container">
+                <a href="#section13">Intelligent Video</a>
+            </div>      
+            <div class="desktop-menu-container">
+                <a href="#section14">Validation Form</a>
+            </div>  
+            <div class="desktop-menu-container">
+                <a href="#section15">Narrator<m/a>
+            </div>   
+    </nav>  
+
+    </div>
+     
+</aside>
+
+    <div class="UI">
+        <button class="btn open-panel-btn">
+            <i class="uil uil-bars"></i>
+        </button> 
+    
+        <button class="btn scroll-top-btn">
+            <a href="#section1"><i class="uil uil-arrow-circle-up"></i></a>
+        </button> 
+    
+        <button class="btn dark-theme-btn">
+             <i class="uil uil-moon"></i>
+        </button> 
+    </div>
+   
+    <script type="module"  src="index_dom.js"></script>
+</body>
+</html>
