@@ -4,6 +4,12 @@
     font-family: sans-serif;
     color: var(--font-color);
 }
+h1{
+    margin: 0;
+}
+button{
+    padding: 10px;
+}
 
 :root{
     --main-color: #f3e42f;
@@ -414,7 +420,9 @@ html{
     border: 1px solid;
     border-color: var(--correct-color);
 }
-
+.validation-form-input{
+    padding: 10px;
+}
 .validation-form-input:focus{
     outline: none;
 }
@@ -431,7 +439,6 @@ html{
     display: block;
     margin: 10px auto;
 }
-
 #voice-select
 {
   width: 40%;
