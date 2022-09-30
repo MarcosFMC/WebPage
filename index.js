@@ -61,7 +61,7 @@ d.addEventListener('DOMContentLoaded',(e)=>{
 
     ClockSystem('#clock','#start-clock','#stop-clock');
 
-    AlarmSystem('../audios/alarma.wav','#start-alarm','#stop-alarm');
+    AlarmSystem('./audios/alarma.wav','#start-alarm','#stop-alarm');
 
     TimerSystem('#timer','Oct 9, 2022 00:00:00','Feliz cumple Alonso!!!!!!'); 
 
